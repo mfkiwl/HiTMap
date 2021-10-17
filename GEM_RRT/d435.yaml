@@ -1,0 +1,15 @@
+%YAML:1.0
+
+# Camera calibration and distortion parameters (OpenCV)
+T.camera: !!opencv-matrix
+   rows: 3
+   cols: 4
+   dt: d
+   data: [1206.8897719532354, 0.0, 960.5, -84.48228403672648, 0.0, 1206.8897719532354, 540.5, 0.0, 0.0, 0.0, 1.0, 0.0]
+
+T.lidar: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 1.0, 0.0,  0.0,  0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0, 0, 0, 1]
+
